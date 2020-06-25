@@ -95,12 +95,12 @@ VALUES ('Margarita','2020-06-07','Primer Comentario de Margarita','comentario de
 --Ingresar 5 comentarios para margarita
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01 12:12:12','contenido1 Margarita',7);
+        VALUES (7,'2020-06-01 12:12:12','contenido1 Margarita',6);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01 12:12:13','contenido2 Margarita',8);
+        VALUES (8,'2020-06-01 12:12:13','contenido2 Margarita',6);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01 12:12:14','contenido3 Margarita',9);
+        VALUES (9,'2020-06-01 12:12:14','contenido3 Margarita',6);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01 12:12:15','contenido4 Margarita',10);
+        VALUES (10,'2020-06-01 12:12:15','contenido4 Margarita',6);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01 12:12:16','contenido5 Margarita',11);
+        VALUES (11,'2020-06-01 12:12:16','contenido5 Margarita',6);

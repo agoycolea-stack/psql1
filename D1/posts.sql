@@ -61,10 +61,10 @@ VALUES ('Carlos','2020-05-21','Carlos Vuelve arrepentido','Carlitos esta Sad','P
 
 CREATE TABLE comentarios(
     id_comentario SMALLINT,
-    fecha_hora_creacion, TIMESTAMP
+    fecha_hora_creacion TIMESTAMP,
     contenido VARCHAR(500),
     id_posteo SMALLINT,
-    FOREIGN KEY (id_posteo) REFERENCES post(id_post)
+    FOREIGN KEY (id_posteo) REFERENCES posteos(id_post)
 );
 
 -- 6 comentarios 4 para carlos y 2 para pamela
@@ -73,19 +73,19 @@ INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
         VALUES (1,'2020-06-01','12:12:12','contenido1 Carlos',6);
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (2,'2020-06-02','13:13:13','contenido2 Carlos',6);
+        VALUES (2,'2020-06-02 13:13:13','contenido2 Carlos',6);
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (3,'2020-06-03','14:14:14','contenido3 Carlos',6);
+        VALUES (3,'2020-06-03 14:14:14','contenido3 Carlos',6);
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (4,'2020-06-04','15:15:15','contenido4 Carlos',6);
+        VALUES (4,'2020-06-04 15:15:15','contenido4 Carlos',6);
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (5,'2020-06-01','12:12:12','contenido1 Pamela',1);
+        VALUES (5,'2020-06-01 12:12:12','contenido1 Pamela',1);
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:12','contenido2 Pamela',2);
+        VALUES (6,'2020-06-01 12:12:12','contenido2 Pamela',2);
 
 -- Crear 1 post para margarita
 
@@ -95,12 +95,12 @@ VALUES ('Margarita','2020-06-07','Primer Comentario de Margarita','comentario de
 --Ingresar 5 comentarios para margarita
 
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:12','contenido1 Margarita',7);
+        VALUES (6,'2020-06-01 12:12:12','contenido1 Margarita',7);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:13','contenido2 Margarita',8);
+        VALUES (6,'2020-06-01 12:12:13','contenido2 Margarita',8);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:14','contenido3 Margarita',9);
+        VALUES (6,'2020-06-01 12:12:14','contenido3 Margarita',9);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:15','contenido4 Margarita',10);
+        VALUES (6,'2020-06-01 12:12:15','contenido4 Margarita',10);
 INSERT INTO comentarios (id_comentario,fecha_hora_creacion,contenido,id_posteo)
-        VALUES (6,'2020-06-01','12:12:16','contenido5 Margarita',11);
+        VALUES (6,'2020-06-01 12:12:16','contenido5 Margarita',11);
